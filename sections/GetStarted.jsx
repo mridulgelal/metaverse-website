@@ -1,10 +1,10 @@
 'use client';
 
-import { motion } from "framer-motion";
-import { StartSteps, TitleText, TypingText } from "../components";
-import styles from "../styles";
-import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
-import { startingFeatures } from "../constants";
+import { motion } from 'framer-motion';
+import { StartSteps, TitleText, TypingText } from '../components';
+import styles from '../styles';
+import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import { startingFeatures } from '../constants';
 
 const GetStarted = () => (
   <section className={`${styles.paddings}relative z-10`}>
