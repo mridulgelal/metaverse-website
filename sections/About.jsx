@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { TypingText } from "../components";
+import { TypingText } from "../components/CustomTexts";
 import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
 
@@ -40,7 +40,6 @@ const About = () => (
         className="W-[18px] h-[28px] object-contain mt-[28px]"
       ></motion.img>
     </motion.div>
-    About section
   </section>
 );
 
