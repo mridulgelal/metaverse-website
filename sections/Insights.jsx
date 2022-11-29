@@ -1,6 +1,6 @@
-"use client";
-import { motion } from "framer-motion";
+'use client';
 
+import { motion } from "framer-motion";
 import { InsightCard, TitleText, TypingText } from "../components";
 import styles from "../styles";
 import { staggerContainer } from "../utils/motion";
